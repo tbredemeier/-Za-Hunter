@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A216F3CD25F70B9E001B65F0 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A216F3CC25F70B9E001B65F0 /* LocationManager.swift */; };
 		A2EFC1FA25F70A1A002284F0 /* _Za_HunterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EFC1F925F70A1A002284F0 /* _Za_HunterApp.swift */; };
 		A2EFC1FC25F70A1A002284F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EFC1FB25F70A1A002284F0 /* ContentView.swift */; };
 		A2EFC1FE25F70A1C002284F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2EFC1FD25F70A1C002284F0 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A216F3CC25F70B9E001B65F0 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		A2EFC1F625F70A1A002284F0 /* 'Za Hunter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "'Za Hunter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2EFC1F925F70A1A002284F0 /* _Za_HunterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _Za_HunterApp.swift; sourceTree = "<group>"; };
 		A2EFC1FB25F70A1A002284F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 			children = (
 				A2EFC1F925F70A1A002284F0 /* _Za_HunterApp.swift */,
 				A2EFC1FB25F70A1A002284F0 /* ContentView.swift */,
+				A216F3CC25F70B9E001B65F0 /* LocationManager.swift */,
 				A2EFC1FD25F70A1C002284F0 /* Assets.xcassets */,
 				A2EFC20225F70A1C002284F0 /* Info.plist */,
 				A2EFC1FF25F70A1C002284F0 /* Preview Content */,
@@ -140,6 +143,7 @@
 			files = (
 				A2EFC1FC25F70A1A002284F0 /* ContentView.swift in Sources */,
 				A2EFC1FA25F70A1A002284F0 /* _Za_HunterApp.swift in Sources */,
+				A216F3CD25F70B9E001B65F0 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
