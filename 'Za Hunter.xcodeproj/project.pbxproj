@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A2809A8C2F3E36E700520E7C /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2809A8B2F3E36E700520E7C /* LocationManager.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		A2809A7D2F3E358D00520E7C /* 'Za Hunter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "'Za Hunter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2809A8B2F3E36E700520E7C /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,7 @@
 		A2809A742F3E358D00520E7C = {
 			isa = PBXGroup;
 			children = (
+				A2809A8B2F3E36E700520E7C /* LocationManager.swift */,
 				A2809A7F2F3E358D00520E7C /* 'Za Hunter */,
 				A2809A7E2F3E358D00520E7C /* Products */,
 			);
@@ -119,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2809A8C2F3E36E700520E7C /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +263,7 @@
 				DEVELOPMENT_TEAM = BWWRUGX9KF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires the use of Location Services";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -288,6 +296,7 @@
 				DEVELOPMENT_TEAM = BWWRUGX9KF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires the use of Location Services";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
